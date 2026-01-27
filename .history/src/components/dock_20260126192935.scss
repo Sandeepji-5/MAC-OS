@@ -1,0 +1,13 @@
+.dock{
+    display: flex;
+
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon{
+    padding: 0.65rem;
+    border: 1rem;
+}
