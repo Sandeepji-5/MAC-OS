@@ -1,0 +1,44 @@
+.window {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border-radius: .75rem;
+    overflow: hidden;
+
+    .nav {
+        padding-inline: 0.75rem;
+        padding-block: 0.5rem;
+        gap: 2rem;
+        display: flex;
+        align-items: center;
+
+        .dots {
+            display: flex;
+            gap: 0.25rem;
+
+            .dot {
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+            }
+
+            .red {
+                background-color: red;
+            }
+
+            .yellow {
+                background-color: yellow;
+            }
+
+            .green {
+                background-color: rgb(10, 228, 10);
+            }
+        }
+
+        .title{
+            color: rgb(188, 184, 184);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 500;
+        }
+    }
+}

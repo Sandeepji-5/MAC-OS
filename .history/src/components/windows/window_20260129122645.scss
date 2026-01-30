@@ -1,0 +1,23 @@
+.window{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+.nav{
+    .dots{
+        
+        display: flex;
+        gap: .25rem;
+    }
+    .dot{
+        height: 15px;
+        width: 15px;
+        background: #dd9797;
+        border-radius: 50%;
+    }
+
+   
+ 
+}
+
+
+}
