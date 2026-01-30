@@ -22,18 +22,20 @@
         .dots {
             display: flex;
             gap: 0.25rem;
+cursor: pointer;
 
             .dot {
                 height: 15px;
                 width: 15px;
-                background-color: white;
+               
+            cursor: pointer;
 
                 border-radius: 50%;
             }
 
             .red {
                 background-color: #eb3535;
-                cursor: default;
+                
             }
 
             .yellow {

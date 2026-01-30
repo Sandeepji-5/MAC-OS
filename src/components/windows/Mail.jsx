@@ -1,11 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import Markdown from 'react-markdown';
+
 import MacWindow from './MacWindow';
 import SyntaxHighlighter from 'react-syntax-highlighter';
-
-import {  atelierDuneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-import './note.scss'
-const Note = ( {windowName, setWindowsState}) => {
+const Note = () => {
     const [markdown, setMarkdown] = useState('');
     useEffect(() => {
         fetch('./note.txt')
